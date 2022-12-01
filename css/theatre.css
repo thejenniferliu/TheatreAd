@@ -55,7 +55,7 @@ text{
     display: flex;
     width: 800px;
     flex:center;
-    margin-left: 25%;
+    margin-left:25%;
     padding-left: 5em;
     background-color: rgb(218, 218, 218);
     
@@ -63,31 +63,40 @@ text{
 
 .posts{
     display: flex;
-    align-content: center;
-    justify-content: center;
+    flex-direction: row;
     margin-top: 30px;
+    justify-content: center;
+    padding-left: 27%;
+    padding-right: 25%;
+    gap: 30px;
+    margin-bottom: 30px;
 }
-
-.posts2{
+.left{
     display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-top: 30px;
+    left: -50px  
 }
 
-.posts3{
+.left >p{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.right{
+    margin-right: 200px;
     display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-top: 30px;
 }
 
-.posts4{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-top: 30px;
+.right > button{
+    background-color: rgb(242, 200, 121);
+    width: 100px;
+    height:40px;
+    color: white;
+    outline: none;
+    margin-top: 50px;
+    border: none;
+    outline: none;
 }
-
-
-
+hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    }
