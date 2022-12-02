@@ -24,7 +24,7 @@ p{
 .navbar{
     display:flex;
     align-items: center;
-    padding-left: 10em;
+    padding-left: 15em;
 }
 
 .navbar >a{
